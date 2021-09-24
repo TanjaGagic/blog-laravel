@@ -70,4 +70,9 @@ class RegisterController extends Controller
             'password' => Hash::make($data['password']),
         ]);
     }
+
+    protected function returnJson(array $data)
+    {
+        return json(['data' => $user->toArray()], 201);
+    }
 }

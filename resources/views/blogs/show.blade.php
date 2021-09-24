@@ -7,10 +7,13 @@
 
 <div class="col-md-12">
 <br>
-<img src="{{asset($blog->image)}}" class="card-img-top">
+<br>
+<br>
 <br>
 <br>
 <h3>{{$blog->title}}</h3>
+<br>
+<br>
 <br>
 <p class="lead">
 {{$blog->content}}
@@ -29,3 +32,4 @@
 </div>
 
 </div>
+
